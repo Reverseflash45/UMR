@@ -2,7 +2,7 @@ import { resolve } from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  // GitHub Pages menyajikan situs di /UMR/; set BASE=/ untuk hosting di akar domain.
+  // Disajikan di akar domain (Vercel); set BASE=/sub/ bila dihosting di subfolder.
   base: process.env.BASE ?? "/",
   build: {
     rollupOptions: {

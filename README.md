@@ -1,6 +1,6 @@
 # UMR — cukup nggak upah minimum di daerahmu?
 
-**Demo: https://reverseflash45.github.io/UMR/**
+**Demo: https://umr.raffstw.my.id**
 
 Peta 514 kabupaten/kota yang membandingkan **upah minimum 2026** dengan **estimasi biaya hidup** setempat. Ada tiga cara menghitung pendapatan:
 
