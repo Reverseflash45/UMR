@@ -10,7 +10,12 @@ Peta 514 kabupaten/kota yang membandingkan **upah minimum 2026** dengan **estima
 
 Profil rumah tangga bisa diatur: lajang, berdua, atau keluarga dengan anak; pasangan ikut bekerja atau tidak; kos, kontrakan, atau KPR; moda transportasi; gaya hidup; tabungan; dan gaji kotor atau bersih (setelah BPJS dan PPh 21).
 
-Ketuk satu daerah untuk membuka **struk bulanannya**: rincian pemasukan dan pengeluaran, sisa atau kurangnya, dan gaji yang dibutuhkan biar pas. Struk itu bisa dibagikan sebagai gambar.
+Ketuk satu daerah untuk membuka **struk bulanannya**: rincian pemasukan dan pengeluaran, sisa atau kurangnya, dan gaji yang dibutuhkan biar pas. Dari struk itu kamu bisa:
+
+- **membagikan kartu story 9:16** (1080×1920) atau menyimpan struknya sebagai gambar;
+- **membandingkan dua daerah** berdampingan, dengan selisih tiap pos ("pindah dari Jogja ke Surabaya: pemasukan naik 86%, biaya hidup naik 6%").
+
+Peta punya dua mode warna: **Cukup nggak?** (pita cakupan) dan **Butuh gaji berapa?**, yaitu gaji kotor minimal biar pas di tiap daerah, dibagi lima kelas kuantil.
 
 ## Cara menghitung
 

@@ -332,3 +332,34 @@ export function gajiDibutuhkan(
 function bulat(x: number): number {
   return Math.round(x);
 }
+
+/* ------------------------------------------------------------------ */
+/* Kelas untuk peta "gaji yang dibutuhkan"                             */
+/* ------------------------------------------------------------------ */
+
+/** Pembulatan "enak dibaca": kelipatan 100 rb di bawah 5 jt, 250 rb di atasnya. */
+export function bulatRapi(x: number): number {
+  const langkah = x < 5_000_000 ? 100_000 : x < 10_000_000 ? 250_000 : 500_000;
+  return Math.round(x / langkah) * langkah;
+}
+
+/**
+ * Batas kelas kuantil (n kelas -> n-1 batas), dibulatkan rapi dan dijamin naik.
+ * Nilai v masuk kelas i bila batas[i-1] <= v < batas[i].
+ */
+export function batasKuantil(nilai: number[], n = 5): number[] {
+  const urut = [...nilai].sort((a, b) => a - b);
+  const batas: number[] = [];
+  for (let i = 1; i < n; i++) {
+    let b = bulatRapi(urut[Math.floor((i * urut.length) / n)]);
+    if (batas.length && b <= batas[batas.length - 1]) b = batas[batas.length - 1] + 100_000;
+    batas.push(b);
+  }
+  return batas;
+}
+
+export function kelasDari(v: number, batas: number[]): number {
+  let i = 0;
+  while (i < batas.length && v >= batas[i]) i++;
+  return i;
+}

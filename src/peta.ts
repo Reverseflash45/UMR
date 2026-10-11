@@ -127,9 +127,20 @@ export class Peta {
   }
 
   warnai(pita: Map<string, Pita>, saring: Pita | null): void {
+    this.svg.classList.remove("mode-skala");
     for (const [id, p] of this.jalur) {
       const v = pita.get(id);
       if (v) p.dataset.pita = v;
+      p.classList.toggle("redup", saring !== null && v !== saring);
+    }
+  }
+
+  /** Warnai dengan kelas berurutan 0..n-1 (peta "gaji yang dibutuhkan"). */
+  warnaiSkala(kelas: Map<string, number>, saring: number | null): void {
+    this.svg.classList.add("mode-skala");
+    for (const [id, p] of this.jalur) {
+      const v = kelas.get(id);
+      if (v !== undefined) p.dataset.skala = String(v);
       p.classList.toggle("redup", saring !== null && v !== saring);
     }
   }

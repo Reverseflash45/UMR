@@ -10,12 +10,17 @@ import {
 } from "./model";
 
 export type Urutan = "sisa" | "kurang";
+/** Peta diwarnai menurut cakupan (pita) atau menurut gaji yang dibutuhkan. */
+export type Warna = "cakupan" | "butuh";
 
 export type Status = {
   profil: Profil;
   /** id daerah yang struknya sedang dibuka. */
   pilih: string | null;
+  /** id daerah pembanding untuk struk yang sedang dibuka. */
+  banding: string | null;
   urutan: Urutan;
+  warna: Warna;
 };
 
 const MODE: ModePendapatan[] = ["daerah", "gaji", "kota"];
@@ -51,7 +56,9 @@ export function dariUrl(cari: string): Status {
       bersih: q.get("b") !== "0",
     },
     pilih: q.get("d"),
+    banding: q.get("d") ? q.get("vs") : null,
     urutan: q.get("u") === "kurang" ? "kurang" : "sisa",
+    warna: q.get("w") === "butuh" ? "butuh" : "cakupan",
   };
 }
 
@@ -71,7 +78,9 @@ export function keUrl(s: Status): string {
   if (!p.tabungan) q.set("tb", "0");
   if (!p.bersih) q.set("b", "0");
   if (s.pilih) q.set("d", s.pilih);
+  if (s.pilih && s.banding) q.set("vs", s.banding);
   if (s.urutan !== "sisa") q.set("u", s.urutan);
+  if (s.warna !== "cakupan") q.set("w", s.warna);
   const t = q.toString();
   return t ? `?${t}` : location.pathname;
 }

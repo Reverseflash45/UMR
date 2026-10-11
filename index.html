@@ -33,6 +33,14 @@
         <p class="kicker" id="kicker">Edisi 2026.1</p>
         <h1 class="judul" id="judul-utama">Memuat peta…</h1>
 
+        <div class="warna-peta">
+          <span class="label" id="label-warna">Warnai peta</span>
+          <div class="segmen kecil" role="radiogroup" aria-labelledby="label-warna" id="warna">
+            <button type="button" role="radio" data-nilai="cakupan">Cukup nggak?</button>
+            <button type="button" role="radio" data-nilai="butuh">Butuh gaji berapa?</button>
+          </div>
+        </div>
+
         <figure class="peta-bingkai">
           <div class="peta" id="peta" role="group" aria-label="Peta kabupaten/kota. Ketuk daerah untuk melihat struk bulanannya.">
           </div>
@@ -182,7 +190,8 @@
 
     <div class="lembar" id="lembar-asal" hidden>
       <div class="lembar-latar" data-tutup></div>
-      <div class="lembar-isi pilih" role="dialog" aria-modal="true" aria-label="Pilih daerah asal">
+      <div class="lembar-isi pilih" role="dialog" aria-modal="true" aria-labelledby="pemilih-judul">
+        <p class="pilih-judul-utama" id="pemilih-judul">Pilih daerah</p>
         <div class="pilih-kepala">
           <input id="cari-asal" type="search" placeholder="Cari daerah asal…" autocomplete="off" />
           <button type="button" class="tutup" data-tutup aria-label="Tutup">✕</button>

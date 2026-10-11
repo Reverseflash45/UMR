@@ -77,18 +77,150 @@ export function htmlStruk(i: InfoStruk): string {
   </article>`;
 }
 
-/** Simpan struk sebagai PNG lalu bagikan (Web Share) atau unduh. */
-export async function bagikanStruk(el: HTMLElement, nama: string): Promise<"dibagikan" | "diunduh"> {
+/* ------------------------------------------------------------------ */
+/* Perbandingan dua daerah                                             */
+/* ------------------------------------------------------------------ */
+
+export type InfoBanding = {
+  a: Hasil;
+  b: Hasil;
+  provA: string;
+  provB: string;
+  gajiPasA: number;
+  gajiPasB: number;
+  profil: Profil;
+  situs: string;
+};
+
+function selisih(x: number): string {
+  if (Math.round(x) === 0) return "0";
+  return (x > 0 ? "+" : "−") + angka(Math.abs(x));
+}
+
+function persenUbah(dari: number, ke: number): string {
+  const v = Math.round(((ke - dari) / dari) * 100);
+  return `${v > 0 ? "naik" : v < 0 ? "turun" : "tetap"}${v === 0 ? "" : ` ${Math.abs(v)}%`}`;
+}
+
+export function htmlBanding(i: InfoBanding): string {
+  const { a, b } = i;
+  const baris = (label: string, x: number, y: number, kelas = "", balik = false) => {
+    const d = y - x;
+    // Untuk biaya, selisih positif itu kabar buruk; untuk pemasukan dan sisa sebaliknya.
+    const arah = Math.round(d) === 0 ? "" : (d > 0) !== balik ? "baik" : "buruk";
+    const n = (v: number) => (v < 0 ? "−" : "") + angka(Math.abs(v));
+    return `<tr class="${kelas}"><th scope="row">${esc(label)}</th><td>${n(x)}</td><td>${n(y)}</td><td class="${arah}">${selisih(d)}</td></tr>`;
+  };
+  const kategori = a.biaya.map((x) => {
+    const y = b.biaya.find((z) => z.id === x.id)?.nilai ?? 0;
+    return baris(x.nama, x.nilai, y, "", true);
+  });
+  const pindah = `Pindah dari <b>${esc(a.daerah.nama)}</b> ke <b>${esc(b.daerah.nama)}</b>: pemasukan ${persenUbah(a.pendapatan.diterima, b.pendapatan.diterima)}, biaya hidup ${persenUbah(a.totalBiaya, b.totalBiaya)}.`;
+  const kepala = (h: Hasil, prov: string) => `
+    <div class="banding-daerah">
+      <p class="banding-nama">${esc(h.daerah.nama)}</p>
+      <p class="banding-prov">${esc(prov)}</p>
+      <p class="banding-sisa" data-pita="${h.pita}">${h.sisa < 0 ? "−" : "+"}${rupiahRingkas(Math.abs(h.sisa))}</p>
+      <p class="struk-pita"><span class="titik-pita" data-pita="${h.pita}"></span>${NAMA_PITA[h.pita]} · ${persen(h.cakupan)}</p>
+    </div>`;
+  return `
+  <article class="struk banding">
+    <header class="struk-kepala">
+      <p class="struk-toko">UMR · Perbandingan</p>
+      <div class="banding-dua">${kepala(a, i.provA)}<span class="banding-vs" aria-hidden="true">vs</span>${kepala(b, i.provB)}</div>
+      <p class="struk-meta">${esc(profilTeks(i.profil))}</p>
+    </header>
+    <p class="banding-kalimat">${pindah}</p>
+    <table class="banding-tabel">
+      <thead><tr><th></th><th scope="col">${esc(singkat(a.daerah.nama))}</th><th scope="col">${esc(singkat(b.daerah.nama))}</th><th scope="col">Selisih</th></tr></thead>
+      <tbody>
+        ${baris("Diterima", a.pendapatan.diterima, b.pendapatan.diterima, "tebal")}
+        ${kategori.join("")}
+        ${baris("Total biaya", a.totalBiaya, b.totalBiaya, "tebal", true)}
+        ${baris(a.sisa < 0 && b.sisa < 0 ? "Kurang" : "Sisa", a.sisa, b.sisa, "tebal hasil")}
+        ${baris("Gaji kotor biar pas", i.gajiPasA, i.gajiPasB, "", true)}
+      </tbody>
+    </table>
+    <footer class="struk-kaki"><p class="struk-situs">${esc(i.situs)}</p></footer>
+  </article>`;
+}
+
+/** "Kab. Bandung Barat" -> "Bandung Barat", "Kota Yogyakarta" -> "Yogyakarta" untuk kepala kolom. */
+function singkat(nama: string): string {
+  return nama.replace(/^(Kab\.|Kota) /, "");
+}
+
+/* ------------------------------------------------------------------ */
+/* Kartu story 9:16                                                    */
+/* ------------------------------------------------------------------ */
+
+export function htmlStory(i: InfoStruk): string {
+  const h = i.hasil;
+  const kurang = h.sisa < 0;
+  const maks = Math.max(h.pendapatan.diterima, h.totalBiaya);
+  const lebar = (x: number) => `${Math.max(4, (x / maks) * 100).toFixed(1)}%`;
+  const terbesar = [...h.biaya].sort((x, y) => y.nilai - x.nilai).slice(0, 4);
+  return `
+  <div class="story" data-pita="${h.pita}">
+    <p class="story-merek">UMR</p>
+    <p class="story-kicker">Struk bulanan · ${esc(profilTeks(i.profil))}</p>
+    <h2 class="story-nama">${esc(h.daerah.nama)}</h2>
+    <p class="story-prov">${esc(i.provinsi)}</p>
+    <div class="story-hasil">
+      <p class="story-label">${kurang ? "Kurang" : "Sisa"} tiap bulan</p>
+      <p class="story-angka">${rupiahRingkas(Math.abs(h.sisa))}</p>
+      <p class="story-pita"><span class="titik-pita" data-pita="${h.pita}"></span>${NAMA_PITA[h.pita]} · cakupan ${persen(h.cakupan)}</p>
+    </div>
+    <div class="story-batang">
+      <p><span>Diterima</span><b>${rupiahRingkas(h.pendapatan.diterima)}</b></p>
+      <div class="story-bar"><i class="masuk" style="width:${lebar(h.pendapatan.diterima)}"></i></div>
+      <p><span>Biaya hidup</span><b>${rupiahRingkas(h.totalBiaya)}</b></p>
+      <div class="story-bar"><i class="keluar" style="width:${lebar(h.totalBiaya)}"></i></div>
+    </div>
+    <ul class="story-pos">${terbesar.map((b) => `<li><span>${esc(b.nama)}</span><b>${rupiahRingkas(b.nilai)}</b></li>`).join("")}</ul>
+    <p class="story-butuh">Biar pas, perlu gaji <b>${rupiahRingkas(i.gajiPas)}</b></p>
+    <p class="story-ajak">Daerahmu warna apa?<br/><b>${esc(i.situs)}</b></p>
+  </div>`;
+}
+
+/** Render potongan HTML di luar layar, jadikan PNG, lalu bagikan atau unduh. */
+export async function bagikanHtml(
+  html: string,
+  nama: string,
+  ukuran: { lebar: number; tinggi?: number; rasio: number; latar: string },
+): Promise<"dibagikan" | "diunduh"> {
+  const wadah = document.createElement("div");
+  wadah.className = "panggung";
+  wadah.style.width = `${ukuran.lebar}px`;
+  wadah.innerHTML = html;
+  document.body.append(wadah);
+  try {
+    await document.fonts.ready;
+    const el = wadah.firstElementChild as HTMLElement;
+    if (ukuran.tinggi) el.style.height = `${ukuran.tinggi}px`;
+    return await bagikanGambar(el, nama, ukuran.rasio, ukuran.latar);
+  } finally {
+    wadah.remove();
+  }
+}
+
+/** Simpan elemen sebagai PNG lalu bagikan (Web Share) atau unduh. */
+export async function bagikanGambar(
+  el: HTMLElement,
+  nama: string,
+  rasio = 2,
+  latar = "#fffdf7",
+): Promise<"dibagikan" | "diunduh"> {
   const blob = await toBlob(el, {
-    pixelRatio: 2,
-    backgroundColor: "#fffdf7",
+    pixelRatio: rasio,
+    backgroundColor: latar,
     style: { margin: "0", transform: "none" },
   });
   if (!blob) throw new Error("gagal membuat gambar");
-  const berkas = new File([blob], `struk-${nama}.png`, { type: "image/png" });
+  const berkas = new File([blob], `${nama}.png`, { type: "image/png" });
   if (navigator.canShare?.({ files: [berkas] })) {
     try {
-      await navigator.share({ files: [berkas], title: `Struk bulanan ${nama}` });
+      await navigator.share({ files: [berkas], title: nama });
       return "dibagikan";
     } catch (e) {
       if ((e as DOMException).name === "AbortError") return "dibagikan";

@@ -1,6 +1,9 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
+  batasKuantil,
+  bulatRapi,
+  kelasDari,
   type Dataset,
   type Profil,
   PROFIL_AWAL,
@@ -129,5 +132,29 @@ describe("pita dan hasil", () => {
       console.log(nama.padEnd(32), JSON.stringify(n));
       expect(n.longgar + n.pas + n.mepet + n.kurang).toBe(514);
     }
+  });
+});
+
+describe("kelas gaji yang dibutuhkan", () => {
+  it("membulatkan rapi", () => {
+    expect(bulatRapi(3_461_000)).toBe(3_500_000);
+    expect(bulatRapi(6_130_000)).toBe(6_250_000);
+    expect(bulatRapi(12_700_000)).toBe(12_500_000);
+  });
+
+  it("batas kuantil naik dan membagi data kira-kira rata", () => {
+    const butuh = data.daerah.map((d) => gajiDibutuhkan(d, PROFIL_AWAL, data, cari));
+    const batas = batasKuantil(butuh, 5);
+    expect(batas).toHaveLength(4);
+    for (let i = 1; i < batas.length; i++) expect(batas[i]).toBeGreaterThan(batas[i - 1]);
+    const n = [0, 0, 0, 0, 0];
+    for (const v of butuh) n[kelasDari(v, batas)]++;
+    for (const x of n) expect(x).toBeGreaterThan(50);
+  });
+
+  it("kelasDari memakai batas bawah inklusif", () => {
+    expect(kelasDari(2_999_999, [3_000_000, 4_000_000])).toBe(0);
+    expect(kelasDari(3_000_000, [3_000_000, 4_000_000])).toBe(1);
+    expect(kelasDari(9_000_000, [3_000_000, 4_000_000])).toBe(2);
   });
 });
