@@ -40,8 +40,8 @@ const cari = (id: string) => indeks.get(id);
 
 async function mulai(): Promise<void> {
   const [d, topo] = await Promise.all([
-    fetch("/data/daerah.json").then((r) => r.json() as Promise<Dataset>),
-    fetch("/data/peta.json").then((r) => r.json() as Promise<Topology<{ daerah: GeometryCollection<{ id: string }> }>>),
+    fetch(import.meta.env.BASE_URL + "data/daerah.json").then((r) => r.json() as Promise<Dataset>),
+    fetch(import.meta.env.BASE_URL + "data/peta.json").then((r) => r.json() as Promise<Topology<{ daerah: GeometryCollection<{ id: string }> }>>),
   ]);
   data = d;
   indeks = new Map(data.daerah.map((x) => [x.id, x]));

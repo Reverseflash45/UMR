@@ -19,7 +19,7 @@ function koma(x: number, d = 2): string {
 }
 
 async function mulai(): Promise<void> {
-  const data: Dataset = await fetch("/data/daerah.json").then((r) => r.json());
+  const data: Dataset = await fetch(import.meta.env.BASE_URL + "data/daerah.json").then((r) => r.json());
   const indeks = new Map(data.daerah.map((d) => [d.id, d]));
   const cari = (id: string) => indeks.get(id);
 
