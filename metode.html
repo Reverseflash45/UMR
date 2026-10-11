@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Metode — UMR</title>
+    <meta name="description" content="Cara UMR menghitung: sumber upah minimum 2026, indeks harga dari garis kemiskinan BPS, model biaya hidup, gaji bersih, dan batasannya." />
+    <meta name="theme-color" content="#f2eee4" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="kepala">
+      <a class="merek" href="/" aria-label="UMR, beranda">UMR</a>
+      <p class="kepala-sub">Upah minimum 2026 vs biaya hidup di 514 kabupaten/kota</p>
+      <nav class="kepala-nav"><a href="/">← Peta</a></nav>
+    </header>
+
+    <main class="artikel">
+      <p class="kicker">Metode · edisi <span data-isi="versi">2026.1</span></p>
+      <h1 class="judul">Cara angka di peta dihitung</h1>
+      <p class="lead">
+        Setiap daerah diberi satu angka: <b>cakupan</b>, yaitu pendapatan yang diterima dibagi estimasi biaya hidup
+        sebulan. Warna peta hanya membaca angka itu. Halaman ini menjelaskan dari mana pendapatan dan biaya itu
+        datang, termasuk bagian yang masih berupa tebakan terdidik.
+      </p>
+
+      <section>
+        <h2>1. Rumus</h2>
+        <div class="rumus">
+          <p><b>Cakupan</b> = pendapatan diterima ÷ biaya hidup bulanan</p>
+          <p><b>Sisa</b> (atau kurang) = pendapatan diterima − biaya hidup bulanan</p>
+        </div>
+        <table class="tabel">
+          <thead><tr><th>Pita</th><th>Cakupan</th><th>Artinya</th></tr></thead>
+          <tbody>
+            <tr><td><span class="titik-pita" data-pita="longgar"></span> Longgar</td><td>≥ 120%</td><td>Biaya tertutup dan sisanya seperlima biaya atau lebih</td></tr>
+            <tr><td><span class="titik-pita" data-pita="pas"></span> Pas</td><td>100–119%</td><td>Biaya tertutup, sisa tipis</td></tr>
+            <tr><td><span class="titik-pita" data-pita="mepet"></span> Mepet</td><td>80–99%</td><td>Kurang, sampai seperlima biaya</td></tr>
+            <tr><td><span class="titik-pita" data-pita="kurang"></span> Kurang</td><td>&lt; 80%</td><td>Kurang lebih dari seperlima biaya</td></tr>
+          </tbody>
+        </table>
+        <p class="catatan">Ambang ini konstanta di kode. Ambang tidak disetel supaya peta tampak lebih hijau atau lebih merah.</p>
+      </section>
+
+      <section>
+        <h2>2. Pendapatan: upah minimum 2026</h2>
+        <p>
+          Upah minimum 2026 ditetapkan lewat SK gubernur masing-masing provinsi dengan formula PP No. 49 Tahun 2025, dan
+          berlaku sejak 1 Januari 2026. Dari 514 kabupaten/kota, <b data-isi="umk">…</b> menetapkan UMK sendiri.
+          Sisanya, <b data-isi="ump">…</b> daerah, memakai UMP provinsinya. Struk setiap daerah menyebut mana yang
+          dipakai. Upah terendah <b data-isi="min">…</b>, tertinggi <b data-isi="maks">…</b>, mediannya
+          <b data-isi="median">…</b>.
+        </p>
+        <p>
+          Angka UMK dikumpulkan dari rangkuman berita yang mengutip SK gubernur, lalu dicocokkan silang dengan sumber
+          kedua bila ada selisih. Sumber per provinsi:
+        </p>
+        <div class="gulir-tabel"><table class="tabel kecil" id="tabel-provinsi"></table></div>
+        <p>Di mode <b>Gajiku</b>, angka itu diganti gajimu sendiri. Di mode <b>Upah kotaku</b>, upah satu daerah asal dibawa ke semua daerah, tetapi biayanya tetap biaya daerah tujuan. Mode ini menjawab pertanyaan seperti "bergaji UMP Jakarta tapi tinggal di Jogja, sisa berapa?".</p>
+        <p>Bila <b>pasangan ikut bekerja</b>, pendapatan ditambah satu upah minimum daerah tempat tinggal.</p>
+      </section>
+
+      <section>
+        <h2>3. Gaji bersih</h2>
+        <p>Secara bawaan, hitungan memakai gaji yang benar-benar diterima, setelah dua jenis potongan:</p>
+        <ul>
+          <li><b>Iuran BPJS bagian pekerja</b>: JHT 2%, JP 1% (dasar upah dibatasi Rp10.547.400), dan BPJS Kesehatan 1% (dasar upah dibatasi Rp12 juta).</li>
+          <li>
+            <b>PPh 21</b> dihitung dengan cara tahunan. Bruto setahun dikurangi biaya jabatan (5%, maksimal Rp6 juta) dan
+            iuran JHT+JP. Hasilnya dikurangi PTKP: Rp54 juta, ditambah Rp4,5 juta bila kawin dan Rp4,5 juta per tanggungan,
+            maksimal tiga. Sisanya dikenai tarif Pasal 17 (5%, 15%, 25%, 30%, 35%), lalu dibagi 12.
+          </li>
+        </ul>
+        <p class="catatan">Pemotongan bulanan dengan tarif efektif rata-rata (TER) bisa berbeda per bulan, tetapi totalnya setahun sama. Pada upah minimum, PPh 21 umumnya nol karena masih di bawah PTKP.</p>
+      </section>
+
+      <section>
+        <h2>4. Biaya hidup</h2>
+        <p>
+          Biaya hidup adalah <b>model</b>, bukan survei langsung di tiap kota. Model ini dibangun dalam dua langkah.
+        </p>
+        <h3>Langkah 1: keranjang acuan</h3>
+        <p>
+          Keranjang acuan adalah kebutuhan satu orang lajang dengan gaya hidup standar, tinggal di kos, naik motor,
+          dan menyisihkan tabungan, di daerah yang harganya sama dengan rata-rata nasional:
+        </p>
+        <div class="gulir-tabel"><table class="tabel" id="tabel-kategori"></table></div>
+        <p class="catatan">
+          <b>Elastisitas</b> menyatakan seberapa kuat kategori itu mengikuti harga lokal. Sewa hunian (1,5) lebih peka
+          daripada harga barang. Pulsa (0) berharga sama di seluruh negeri. Listrik dan BBM (0,3–0,4) sebagian besar
+          bertarif nasional.
+        </p>
+
+        <h3>Langkah 2: indeks harga daerah</h3>
+        <p>
+          Tiap kategori dikalikan <b>indeks harga</b> daerah, yaitu garis kemiskinan daerah itu dibagi garis kemiskinan
+          nasional (Rp<span data-isi="gkn">609.160</span> per kapita per bulan, Maret 2025), dipangkatkan elastisitasnya:
+        </p>
+        <div class="rumus"><p>biaya kategori = acuan × (GK daerah ÷ GK nasional)<sup>elastisitas</sup> × pengali profil</p></div>
+        <p>
+          Garis kemiskinan dipilih karena BPS menghitungnya untuk <b>seluruh</b> 514 daerah dari harga keranjang
+          kebutuhan dasar setempat. Hasil Survei Biaya Hidup hanya tersedia untuk 150 kota. Indeks berkisar dari
+          <b data-isi="imin">…</b> sampai <b data-isi="imaks">…</b> kali rata-rata nasional.
+        </p>
+
+        <h3>Pengali profil</h3>
+        <ul>
+          <li><b>Pasangan</b> dan <b>anak</b>: tiap kategori punya pengali sendiri (lihat tabel). Untuk makan, misalnya, pasangan ×1,8 dan tiap anak +0,45. Tiap anak juga menambah biaya sekolah/pengasuhan. Semua pengali ini mengikuti logika skala ekuivalensi: orang kedua tidak menggandakan biaya sewa.</li>
+          <li><b>Tempat tinggal</b>: kos ×1, kontrakan ×1,55, cicilan KPR ×2 terhadap sewa acuan.</li>
+          <li><b>Transportasi</b>: motor Rp400 rb, angkutan umum Rp330 rb, ojol Rp950 rb sebulan (harga acuan).</li>
+          <li><b>Gaya hidup</b>: hemat memangkas makan, pakaian, dan sosial. Longgar menaikkannya.</li>
+          <li><b>Tabungan</b>: 10% dari seluruh pengeluaran. Bisa dimatikan.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Seberapa yakin?</h2>
+        <p>Angka di peta paling baik dibaca sebagai rentang, bukan vonis. Tabel di bawah menunjukkan jumlah daerah per pita bila asumsinya diubah. Semua baris memakai upah minimum masing-masing daerah dan dihitung langsung oleh kode yang sama dengan peta.</p>
+        <div class="gulir-tabel"><table class="tabel" id="tabel-sensitivitas"></table></div>
+      </section>
+
+      <section>
+        <h2>6. Batasan</h2>
+        <ul>
+          <li>Bukan survei primer. Keranjang acuan adalah asumsi yang ditulis terbuka di atas, bukan hasil pengukuran.</li>
+          <li>Garis kemiskinan mencerminkan harga dan pola konsumsi kelompok bawah, jadi ia proksi harga, bukan indeks harga resmi. Survei tingkat kabupaten juga punya galat sampel.</li>
+          <li>Satu angka per daerah. Pusat kota dan pinggiran bisa berbeda jauh, terutama untuk sewa.</li>
+          <li>UMK adalah lantai upah untuk pekerja dengan masa kerja di bawah setahun, bukan gaji rata-rata.</li>
+          <li>Batas wilayah peta disederhanakan, dan pulau kecil di bawah 4 km² tidak digambar.</li>
+          <li>Bukan nasihat keuangan.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Data & kode</h2>
+        <ul>
+          <li>Garis kemiskinan: BPS, <i>Data dan Informasi Kemiskinan Kabupaten/Kota Tahun 2025</i> (No. Publikasi 04300.25011), Tabel 2.1.</li>
+          <li>Batas wilayah: geoBoundaries IDN ADM2, bersumber dari BPS dan OCHA, lisensi CC BY 3.0 IGO.</li>
+          <li>Seluruh skrip pengolahan data, angka mentah, dan kode aplikasi ada di <a href="https://github.com/Reverseflash45/UMR">github.com/Reverseflash45/UMR</a>. Kalau menemukan angka UMK yang keliru, buka <i>issue</i> di sana.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="kaki">
+      <p>UMR · edisi <span data-isi="versi">2026.1</span> · <a href="/">Kembali ke peta</a></p>
+    </footer>
+
+    <script type="module" src="/src/metode.ts"></script>
+  </body>
+</html>

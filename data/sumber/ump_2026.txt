@@ -1,0 +1,42 @@
+# UMP 2026 (Rp/bulan), berlaku 1 Januari 2026 (PP No. 49/2025).
+# Sumber: detikFinance, "Daftar Lengkap UMP di 38 Provinsi yang Langsung Berlaku Januari 2026"
+# https://finance.detik.com/berita-ekonomi-bisnis/d-8295123/daftar-lengkap-ump-di-38-provinsi-yang-langsung-berlaku-januari-2026
+# Sumatera Utara memakai Rp3.228.971 sesuai SK 188.44/908/KPTS/2025 (detikFinance menulis Rp3.228.949).
+Aceh | 3932552
+Sumatera Utara | 3228971
+Sumatera Barat | 3182955
+Riau | 3780495
+Jambi | 3471497
+Sumatera Selatan | 3942963
+Bengkulu | 2827250
+Lampung | 3047734
+Kepulauan Bangka Belitung | 4035000
+Kepulauan Riau | 3879520
+DKI Jakarta | 5729876
+Jawa Barat | 2317601
+Jawa Tengah | 2327386
+DI Yogyakarta | 2417495
+Jawa Timur | 2446880
+Banten | 3100881
+Bali | 3207459
+Nusa Tenggara Barat | 2673861
+Nusa Tenggara Timur | 2455898
+Kalimantan Barat | 3054552
+Kalimantan Tengah | 3686138
+Kalimantan Selatan | 3725000
+Kalimantan Timur | 3762431
+Kalimantan Utara | 3775243
+Sulawesi Utara | 4002630
+Sulawesi Tengah | 3179565
+Sulawesi Selatan | 3921088
+Sulawesi Tenggara | 3306496
+Gorontalo | 3405144
+Sulawesi Barat | 3315934
+Maluku | 3334490
+Maluku Utara | 3510240
+Papua Barat | 3841000
+Papua | 4436283
+Papua Tengah | 4285848
+Papua Pegunungan | 4508714
+Papua Selatan | 4508100
+Papua Barat Daya | 3766000

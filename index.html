@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>UMR — Cukup nggak upah minimum di daerahmu?</title>
+    <meta
+      name="description"
+      content="Peta 514 kabupaten/kota: upah minimum 2026 dibandingkan estimasi biaya hidup. Pakai gajimu sendiri, atur profil rumah tangga, dan lihat struk bulanan tiap daerah."
+    />
+    <meta name="theme-color" content="#f2eee4" />
+    <meta property="og:title" content="UMR — Cukup nggak upah minimum di daerahmu?" />
+    <meta
+      property="og:description"
+      content="Upah minimum 2026 vs biaya hidup di 514 kabupaten/kota. Geser gajimu, lihat petanya berubah."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="kepala">
+      <a class="merek" href="/" aria-label="UMR, beranda">UMR</a>
+      <p class="kepala-sub">Upah minimum 2026 <span aria-hidden="true">vs</span><span class="sr">dibandingkan</span> biaya hidup di 514 kabupaten/kota</p>
+      <nav class="kepala-nav">
+        <a href="/metode.html">Metode</a>
+      </nav>
+    </header>
+
+    <main class="tata">
+      <section class="kolom-peta" aria-labelledby="judul-utama">
+        <p class="kicker" id="kicker">Edisi 2026.1</p>
+        <h1 class="judul" id="judul-utama">Memuat peta…</h1>
+
+        <figure class="peta-bingkai">
+          <div class="peta" id="peta" role="group" aria-label="Peta kabupaten/kota. Ketuk daerah untuk melihat struk bulanannya.">
+          </div>
+          <div class="tooltip" id="tooltip" hidden></div>
+          <figcaption class="peta-catatan">
+            <span>Ketuk daerah untuk melihat struknya. Cubit atau gulir untuk memperbesar.</span>
+            <div class="peta-tombol" aria-label="Perbesaran peta">
+              <button type="button" id="zoom-masuk" aria-label="Perbesar">+</button>
+              <button type="button" id="zoom-keluar" aria-label="Perkecil">−</button>
+              <button type="button" id="zoom-ulang" aria-label="Tampilkan seluruh Indonesia">⤢</button>
+            </div>
+          </figcaption>
+        </figure>
+
+        <div class="pita-ringkas" id="pita-ringkas">
+          <div class="pita-batang" id="pita-batang" aria-hidden="true"></div>
+          <ul class="pita-angka" id="pita-angka"></ul>
+        </div>
+      </section>
+
+      <section class="kolom-kendali" aria-label="Pengaturan hitungan">
+        <div class="kartu">
+          <div class="kartu-kepala">
+            <h2 class="label">Hitung dengan</h2>
+          </div>
+          <div class="segmen" role="radiogroup" aria-label="Sumber pendapatan" id="mode">
+            <button type="button" role="radio" data-nilai="daerah">Upah daerah</button>
+            <button type="button" role="radio" data-nilai="gaji">Gajiku</button>
+            <button type="button" role="radio" data-nilai="kota">Upah kotaku</button>
+          </div>
+
+          <div class="mode-isi" id="isi-daerah">
+            <p class="bantu">Tiap daerah dihitung dengan UMK-nya sendiri, atau UMP provinsi bila daerah itu tidak menetapkan UMK.</p>
+          </div>
+
+          <div class="mode-isi" id="isi-gaji" hidden>
+            <label class="masukan-uang">
+              <span class="sr">Gajimu per bulan</span>
+              <span class="rp">Rp</span>
+              <input id="gaji" inputmode="numeric" autocomplete="off" value="3.000.000" />
+              <span class="per">/bulan</span>
+            </label>
+            <input type="range" id="gaji-geser" min="0" max="1000" step="1" aria-label="Geser gaji" />
+            <div class="skala"><span>Rp1 jt</span><span>Rp5 jt</span><span>Rp10 jt</span><span>Rp25 jt</span></div>
+          </div>
+
+          <div class="mode-isi" id="isi-kota" hidden>
+            <p class="bantu">Upah daerah asalmu dibawa ke mana pun; biaya hidup tetap biaya daerah tujuan.</p>
+            <button type="button" class="pilih-asal" id="pilih-asal">
+              <span class="label">Upah dari</span>
+              <span id="asal-nama">Kota Jakarta Selatan</span>
+              <span class="pilih-asal-upah" id="asal-upah"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="kartu">
+          <div class="kartu-kepala">
+            <h2 class="label">Profil rumah tangga</h2>
+            <span class="lencana" id="ringkas-profil"></span>
+          </div>
+          <div class="segmen" role="radiogroup" aria-label="Susunan rumah tangga" id="rumah">
+            <button type="button" role="radio" data-nilai="lajang">Lajang</button>
+            <button type="button" role="radio" data-nilai="pasangan">Pasangan</button>
+            <button type="button" role="radio" data-nilai="keluarga">Keluarga</button>
+          </div>
+          <div class="baris-atur" id="baris-anak" hidden>
+            <span>Jumlah anak</span>
+            <div class="stepper">
+              <button type="button" id="anak-kurang" aria-label="Kurangi anak">−</button>
+              <output id="anak" aria-live="polite">2 anak</output>
+              <button type="button" id="anak-tambah" aria-label="Tambah anak">+</button>
+            </div>
+          </div>
+          <label class="baris-atur" id="baris-pasangan" hidden>
+            <span>Pasangan ikut bekerja <small>dengan upah minimum daerah itu</small></span>
+            <input type="checkbox" class="sakelar" id="pasangan-kerja" />
+          </label>
+
+          <details class="lanjutan">
+            <summary>Asumsi lanjutan</summary>
+            <div class="baris-atur kolom">
+              <span>Tempat tinggal</span>
+              <div class="segmen kecil" role="radiogroup" aria-label="Tempat tinggal" id="hunian">
+                <button type="button" role="radio" data-nilai="kos">Kos</button>
+                <button type="button" role="radio" data-nilai="kontrakan">Kontrakan</button>
+                <button type="button" role="radio" data-nilai="kpr">Cicilan KPR</button>
+              </div>
+            </div>
+            <div class="baris-atur kolom">
+              <span>Transportasi harian</span>
+              <div class="segmen kecil" role="radiogroup" aria-label="Transportasi" id="transportasi">
+                <button type="button" role="radio" data-nilai="motor">Motor</button>
+                <button type="button" role="radio" data-nilai="umum">Angkutan umum</button>
+                <button type="button" role="radio" data-nilai="ojol">Ojol</button>
+              </div>
+            </div>
+            <div class="baris-atur kolom">
+              <span>Gaya hidup</span>
+              <div class="segmen kecil" role="radiogroup" aria-label="Gaya hidup" id="gaya">
+                <button type="button" role="radio" data-nilai="hemat">Hemat</button>
+                <button type="button" role="radio" data-nilai="standar">Standar</button>
+                <button type="button" role="radio" data-nilai="longgar">Longgar</button>
+              </div>
+            </div>
+            <label class="baris-atur">
+              <span>Sisihkan tabungan 10%</span>
+              <input type="checkbox" class="sakelar" id="tabungan" />
+            </label>
+            <label class="baris-atur">
+              <span>Pakai gaji bersih <small>setelah iuran BPJS dan PPh 21</small></span>
+              <input type="checkbox" class="sakelar" id="bersih" />
+            </label>
+          </details>
+        </div>
+
+        <div class="cari">
+          <label for="cari" class="sr">Cari kabupaten/kota</label>
+          <input id="cari" type="search" placeholder="Cari kabupaten/kota…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="cari-hasil" />
+          <ul id="cari-hasil" class="cari-hasil" role="listbox" hidden></ul>
+        </div>
+
+        <aside class="struk-wadah" id="struk-wadah" aria-live="polite">
+          <div class="struk-kosong" id="struk-kosong">
+            <p class="label">Struk bulanan</p>
+            <p>Pilih satu daerah di peta atau lewat pencarian untuk melihat rincian pemasukan dan pengeluarannya.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="peringkat" aria-labelledby="judul-peringkat">
+        <div class="peringkat-kepala">
+          <h2 class="label" id="judul-peringkat">Peringkat</h2>
+          <div class="segmen kecil" role="radiogroup" aria-label="Urutan peringkat" id="urutan">
+            <button type="button" role="radio" data-nilai="sisa">Sisa terbesar</button>
+            <button type="button" role="radio" data-nilai="kurang">Paling kurang</button>
+          </div>
+        </div>
+        <ol class="peringkat-daftar" id="peringkat"></ol>
+      </section>
+    </main>
+
+    <div class="lembar" id="lembar" hidden>
+      <div class="lembar-latar" data-tutup></div>
+      <div class="lembar-isi" role="dialog" aria-modal="true" aria-labelledby="struk-judul" id="lembar-isi"></div>
+    </div>
+
+    <div class="lembar" id="lembar-asal" hidden>
+      <div class="lembar-latar" data-tutup></div>
+      <div class="lembar-isi pilih" role="dialog" aria-modal="true" aria-label="Pilih daerah asal">
+        <div class="pilih-kepala">
+          <input id="cari-asal" type="search" placeholder="Cari daerah asal…" autocomplete="off" />
+          <button type="button" class="tutup" data-tutup aria-label="Tutup">✕</button>
+        </div>
+        <ul class="pilih-daftar" id="daftar-asal"></ul>
+      </div>
+    </div>
+
+    <footer class="kaki">
+      <div>
+        <p class="label">Sumber data</p>
+        <ul>
+          <li>Upah minimum 2026: SK gubernur 38 provinsi (PP 49/2025), dihimpun dari pemberitaan resmi.</li>
+          <li>Indeks harga daerah: garis kemiskinan Maret 2025, BPS, <i>Data dan Informasi Kemiskinan Kabupaten/Kota 2025</i>.</li>
+          <li>Batas wilayah: geoBoundaries (BPS/OCHA), CC BY 3.0 IGO.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">Baca dulu</p>
+        <p>Biaya hidup di sini adalah <b>estimasi model</b>, bukan survei langsung. Satu angka mewakili satu daerah, padahal pusat kota dan pinggiran bisa jauh berbeda. Bukan nasihat keuangan. <a href="/metode.html">Cara menghitungnya →</a></p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,501 @@
+# UMK 2026 per kabupaten/kota (Rp/bulan), dihimpun dari rangkuman Goodstats atas SK gubernur tiap provinsi.
+# Format: Provinsi | Daerah | Rupiah | Sumber. Daerah yang tidak tercantum memakai UMP (ump_2026.txt).
+# Daerah yang tercantum dengan nilai = UMP dianggap tidak menetapkan UMK sendiri.
+Aceh | Kota Banda Aceh | 4162965 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Tamiang | 3978204 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kota Langsa | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kota Lhokseumawe | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kota Sabang | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kota Subulussalam | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Barat | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Barat Daya | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Besar | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Jaya | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Selatan | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Singkil | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Tengah | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Tenggara | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Timur | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Aceh Utara | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Bener Meriah | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Bireuen | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Gayo Lues | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Nagan Raya | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Pidie | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Pidie Jaya | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Aceh | Kabupaten Simeulue | 3932552 | https://data.goodstats.id/statistic/daftar-umk-aceh-2026-kota-banda-aceh-naik-6-k5blv
+Bali | Kabupaten Badung | 3791002 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kota Denpasar | 3499879 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Gianyar | 3316798 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Tabanan | 3287679 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Bangli | 3207459 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Buleleng | 3207459 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Jembrana | 3207459 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Karangasem | 3207459 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Bali | Kabupaten Klungkung | 3207459 | https://data.goodstats.id/statistic/daftar-umk-bali-2026-kab-badung-paling-tinggi-LPzs0
+Banten | Kota Cilegon | 5469922 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kota Tangerang | 5399405 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kota Tangerang Selatan | 5247870 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kabupaten Tangerang | 5210377 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kabupaten Serang | 5178521 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kota Serang | 4665927 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kabupaten Pandeglang | 3360078 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Banten | Kabupaten Lebak | 3330010 | https://data.goodstats.id/statistic/daftar-umk-banten-2026-kota-cilegon-jadi-yang-tertinggi-VkBee
+Gorontalo | Kota Gorontalo | 3405144 | https://data.goodstats.id/statistic/daftar-umk-gorontalo-2026-semua-daerah-gunakan-ump-uNVQv
+Gorontalo | Kabupaten Boalemo | 3405144 | https://data.goodstats.id/statistic/daftar-umk-gorontalo-2026-semua-daerah-gunakan-ump-uNVQv
+Gorontalo | Kabupaten Bone Bolango | 3405144 | https://data.goodstats.id/statistic/daftar-umk-gorontalo-2026-semua-daerah-gunakan-ump-uNVQv
+Gorontalo | Kabupaten Gorontalo | 3405144 | https://data.goodstats.id/statistic/daftar-umk-gorontalo-2026-semua-daerah-gunakan-ump-uNVQv
+Gorontalo | Kabupaten Gorontalo Utara | 3405144 | https://data.goodstats.id/statistic/daftar-umk-gorontalo-2026-semua-daerah-gunakan-ump-uNVQv
+Gorontalo | Kabupaten Pohuwato | 3405144 | https://data.goodstats.id/statistic/daftar-umk-gorontalo-2026-semua-daerah-gunakan-ump-uNVQv
+Jawa Tengah | Kota Semarang | 3701709 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Demak | 3122805 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Kendal | 2992994 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Semarang | 2940088 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Kudus | 2818585 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Cilacap | 2773183 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Jepara | 2756501 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Batang | 2708520 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kota Pekalongan | 2700926 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kota Salatiga | 2698273 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Pekalongan | 2633700 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Magelang | 2607790 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Karanganyar | 2592154 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kota Surakarta | 2570000 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Klaten | 2538691 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Boyolali | 2537949 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kota Tegal | 2526510 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Sukoharjo | 2500000 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Pati | 2485000 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Tegal | 2484162 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Purbalingga | 2474721 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Banyumas | 2474598 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Wonosobo | 2455038 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Pemalang | 2433254 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kota Magelang | 2429285 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Purworejo | 2401961 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Brebes | 2400350 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Kebumen | 2400000 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Grobogan | 2399186 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Temanggung | 2397000 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Rembang | 2386305 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Blora | 2345695 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Sragen | 2337700 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Wonogiri | 2335126 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Jawa Tengah | Kabupaten Banjarnegara | 2327813 | https://data.goodstats.id/statistic/daftar-umk-jawa-tengah-2026-kota-semarang-naik-7-8b5Hw
+Kepulauan Riau | Kota Batam | 5357982 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Kepulauan Riau | Kabupaten Bintan | 4583221 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Kepulauan Riau | Kabupaten Kepulauan Anambas | 4279851 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Kepulauan Riau | Kabupaten Karimun | 4241935 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Kepulauan Riau | Kota Tanjungpinang | 3879520 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Kepulauan Riau | Kabupaten Lingga | 3879520 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Kepulauan Riau | Kabupaten Natuna | 3879520 | https://data.goodstats.id/statistic/daftar-umk-kepulauan-riau-2026-kota-batam-naik-7-5FDJ8
+Maluku | Kota Ambon | 3381225 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kota Tual | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Buru | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Buru Selatan | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Kepulauan Aru | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Kepulauan Tanimbar | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Maluku Barat Daya | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Maluku Tengah | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Maluku Tenggara | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Seram Bagian Barat | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku | Kabupaten Seram Bagian Timur | 3334490 | https://data.goodstats.id/statistic/daftar-umk-maluku-2026-kota-ambon-naik-6-AYiqG
+Maluku Utara | Kota Ternate | 3599562 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kota Tidore Kepulauan | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Halmahera Barat | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Halmahera Tengah | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Halmahera Timur | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Halmahera Selatan | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Halmahera Utara | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Kepulauan Sula | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Pulau Morotai | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Maluku Utara | Kabupaten Pulau Taliabu | 3510240 | https://data.goodstats.id/statistic/daftar-umk-maluku-utara-2026-kota-ternate-naik-4-mpt1o
+Nusa Tenggara Timur | Kota Kupang | 2532853 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Alor | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Belu | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Ende | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Flores Timur | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Kupang | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Lembata | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Malaka | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Manggarai | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Manggarai Barat | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Manggarai Timur | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Nagekeo | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Ngada | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Rote Ndao | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Sabu Raijua | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Sikka | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Sumba Barat | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Sumba Barat Daya | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Sumba Tengah | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Sumba Timur | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Timor Tengah Selatan | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Nusa Tenggara Timur | Kabupaten Timor Tengah Utara | 2455898 | https://data.goodstats.id/statistic/daftar-umk-ntt-2026-kota-kupang-naik-5-SOOBh
+Papua Barat | Kabupaten Fakfak | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Barat | Kabupaten Kaimana | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Barat | Kabupaten Manokwari | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Barat | Kabupaten Manokwari Selatan | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Barat | Kabupaten Pegunungan Arfak | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Barat | Kabupaten Teluk Bintuni | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Barat | Kabupaten Teluk Wondama | 3841000 | https://data.goodstats.id/statistic/daftar-umk-papua-barat-2026-naik-6-SMqyT
+Papua Pegunungan | Kabupaten Jayawijaya | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Lanny Jaya | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Mamberamo Tengah | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Nduga | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Pegunungan Bintang | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Tolikara | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Yahukimo | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Papua Pegunungan | Kabupaten Yalimo | 4508714 | https://data.goodstats.id/statistic/daftar-umk-papua-pegunungan-2026-naik-5-u1brP
+Riau | Kota Dumai | 4431175 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Bengkalis | 4155318 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Siak | 4001327 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kota Pekanbaru | 3998179 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Indragiri Hulu | 3988406 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Kuantan Singingi | 3949467 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Kampar | 3898211 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Pelalawan | 3894260 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Rokan Hulu | 3819353 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Rokan Hilir | 3783053 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Indragiri Hilir | 3780496 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Riau | Kabupaten Kepulauan Meranti | 3780496 | https://data.goodstats.id/statistic/daftar-umk-riau-2026-kota-dumai-jadi-yang-tertinggi-bDVe3
+Sulawesi Barat | Kabupaten Pasangkayu | 3564798 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-barat-2026-kab-pasangkayu-paling-tinggi-dmlCM
+Sulawesi Barat | Kabupaten Mamuju | 3363847 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-barat-2026-kab-pasangkayu-paling-tinggi-dmlCM
+Sulawesi Barat | Kabupaten Polewali Mandar | 3327886 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-barat-2026-kab-pasangkayu-paling-tinggi-dmlCM
+Sulawesi Barat | Kabupaten Majene | 3315934 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-barat-2026-kab-pasangkayu-paling-tinggi-dmlCM
+Sulawesi Barat | Kabupaten Mamasa | 3315934 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-barat-2026-kab-pasangkayu-paling-tinggi-dmlCM
+Sulawesi Barat | Kabupaten Mamuju Tengah | 3315934 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-barat-2026-kab-pasangkayu-paling-tinggi-dmlCM
+Sulawesi Selatan | Kota Makassar | 4148179 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Pangkajene dan Kepulauan | 4032248 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Luwu Timur | 3961166 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kota Palopo | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kota Parepare | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Bantaeng | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Barru | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Bone | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Bulukumba | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Enrekang | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Gowa | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Jeneponto | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Kepulauan Selayar | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Luwu | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Luwu Utara | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Maros | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Pinrang | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Sidenreng Rappang | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Sinjai | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Soppeng | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Takalar | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Tana Toraja | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Toraja Utara | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Selatan | Kabupaten Wajo | 3921088 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-selatan-2026-kota-makassar-naik-6-l7raV
+Sulawesi Utara | Kota Manado | 4022017 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kota Bitung | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kota Kotamobagu | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kota Tomohon | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Bolaang Mongondow | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Bolaang Mongondow Selatan | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Bolaang Mongondow Timur | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Bolaang Mongondow Utara | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Kepulauan Sangihe | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Kepulauan Siau Tagulandang Biaro | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Kepulauan Talaud | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Minahasa | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Minahasa Selatan | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Minahasa Tenggara | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sulawesi Utara | Kabupaten Minahasa Utara | 4002630 | https://data.goodstats.id/statistic/daftar-umk-sulawesi-utara-2026-kota-manado-paling-tinggi-qIW5v
+Sumatera Barat | Kota Padang | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kota Bukittinggi | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kota Padang Panjang | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kota Pariaman | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kota Payakumbuh | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kota Sawahlunto | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kota Solok | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Agam | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Dharmasraya | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Kepulauan Mentawai | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Lima Puluh Kota | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Padang Pariaman | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Pasaman | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Pasaman Barat | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Pesisir Selatan | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Sijunjung | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Solok | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Solok Selatan | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Barat | Kabupaten Tanah Datar | 3182955 | https://data.goodstats.id/statistic/daftar-umk-sumatra-barat-2026-semua-daerah-gunakan-ump-98PB7
+Sumatera Utara | Kota Medan | 4335198 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Deli Serdang | 4041543 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Batu Bara | 3970000 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Karo | 3843153 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Labuhanbatu | 3748181 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Labuhanbatu Selatan | 3690000 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Sibolga | 3668667 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Serdang Bedagai | 3605983 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Labuhanbatu Utara | 3603415 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Tapanuli Selatan | 3567941 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Mandailing Natal | 3555900 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Asahan | 3531361 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Tapanuli Tengah | 3509004 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Tanjungbalai | 3496856 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Padang Lawas | 3478237 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Padangsidimpuan | 3416803 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Toba | 3404422 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Langkat | 3402892 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Binjai | 3367913 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Simalungun | 3351403 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Tapanuli Utara | 3307618 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Tebing Tinggi | 3229958 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Gunungsitoli | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kota Pematangsiantar | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Dairi | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Humbang Hasundutan | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Nias | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Nias Barat | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Nias Selatan | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Nias Utara | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Padang Lawas Utara | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Pakpak Bharat | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Sumatera Utara | Kabupaten Samosir | 3228971 | https://data.goodstats.id/statistic/daftar-umk-sumatra-utara-2026-kota-medan-naik-8-RCShe
+Kalimantan Barat | Kabupaten Ketapang | 3561801 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Kayong Utara | 3370586 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Bengkayang | 3252580 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kota Singkawang | 3247387 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Mempawah | 3220801 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Landak | 3211256 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kota Pontianak | 3205220 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Sambas | 3202663 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Sintang | 3187965 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Sanggau | 3121747 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Melawi | 3109431 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Kapuas Hulu | 3106259 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Barat | Kabupaten Kubu Raya | 3100000 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-barat-2026-QkFFM
+Kalimantan Selatan | Kabupaten Kotabaru | 3904645 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-selatan-2026-TrPK0
+Kalimantan Selatan | Kota Banjarmasin | 3855894 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-selatan-2026-TrPK0
+Kalimantan Selatan | Kota Banjarbaru | 3843037 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-selatan-2026-TrPK0
+Kalimantan Selatan | Kabupaten Tabalong | 3827935 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-selatan-2026-TrPK0
+Kalimantan Selatan | Kabupaten Tanah Bumbu | 3736000 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-selatan-2026-TrPK0
+Kalimantan Tengah | Kabupaten Barito Utara | 4093071 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Seruyan | 4051079 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Barito Selatan | 4045059 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Murung Raya | 3998046 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Lamandau | 3938998 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Sukamara | 3912098 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Kotawaringin Barat | 3909005 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Gunung Mas | 3770716 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Kotawaringin Timur | 3756643 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Katingan | 3729766 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kota Palangka Raya | 3724677 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Barito Timur | 3716006 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Kapuas | 3710096 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Kalimantan Tengah | Kabupaten Pulang Pisau | 3701205 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-kalimantan-tengah-2026-5BtCb
+Nusa Tenggara Barat | Kabupaten Sumbawa Barat | 3136468 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kota Mataram | 3019015 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kota Bima | 2831163 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Bima | 2767580 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Lombok Utara | 2758221 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Dompu | 2751290 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Sumbawa | 2747478 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Lombok Timur | 2744628 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Lombok Tengah | 2741526 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Nusa Tenggara Barat | Kabupaten Lombok Barat | 2712254 | https://data.goodstats.id/statistic/simak-besaran-umk-provinsi-nusa-tenggara-barat-2026-u5Lp9
+Kepulauan Bangka Belitung | Kota Pangkalpinang | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Kepulauan Bangka Belitung | Kabupaten Bangka | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Kepulauan Bangka Belitung | Kabupaten Bangka Barat | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Kepulauan Bangka Belitung | Kabupaten Bangka Selatan | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Kepulauan Bangka Belitung | Kabupaten Bangka Tengah | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Kepulauan Bangka Belitung | Kabupaten Belitung | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Kepulauan Bangka Belitung | Kabupaten Belitung Timur | 4035000 | https://data.goodstats.id/statistic/simak-daftar-umk-bangka-belitung-2026-NIqBD
+Bengkulu | Kabupaten Mukomuko | 3217086 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kota Bengkulu | 3089219 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Bengkulu Tengah | 2945142 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Bengkulu Utara | 2906159 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Rejang Lebong | 2841749 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Bengkulu Selatan | 2827251 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Kaur | 2827251 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Kepahiang | 2827251 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Lebong | 2827251 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+Bengkulu | Kabupaten Seluma | 2827251 | https://data.goodstats.id/statistic/simak-daftar-umk-bengkulu-2026-9mylj
+DI Yogyakarta | Kota Yogyakarta | 2827593 | https://data.goodstats.id/statistic/simak-daftar-umk-di-yogyakarta-2026-chqOw
+DI Yogyakarta | Kabupaten Sleman | 2624387 | https://data.goodstats.id/statistic/simak-daftar-umk-di-yogyakarta-2026-chqOw
+DI Yogyakarta | Kabupaten Bantul | 2509001 | https://data.goodstats.id/statistic/simak-daftar-umk-di-yogyakarta-2026-chqOw
+DI Yogyakarta | Kabupaten Kulon Progo | 2504520 | https://data.goodstats.id/statistic/simak-daftar-umk-di-yogyakarta-2026-chqOw
+DI Yogyakarta | Kabupaten Gunungkidul | 2468378 | https://data.goodstats.id/statistic/simak-daftar-umk-di-yogyakarta-2026-chqOw
+Jambi | Kota Jambi | 3868963 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Muaro Jambi | 3651917 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Tanjung Jabung Barat | 3551430 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Sarolangun | 3533562 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Tanjung Jabung Timur | 3486521 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kota Sungai Penuh | 3471497 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Batanghari | 3471497 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Bungo | 3471497 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Kerinci | 3471497 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Merangin | 3471497 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jambi | Kabupaten Tebo | 3471497 | https://data.goodstats.id/statistic/simak-daftar-umk-jambi-2026-Mrta2
+Jawa Barat | Kota Bekasi | 5999443 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Bekasi | 5938885 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Karawang | 5886853 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Depok | 5522662 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Bogor | 5437203 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Bogor | 5161769 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Purwakarta | 5052856 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Bandung | 4737678 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Cimahi | 4090568 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Bandung Barat | 3984711 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Bandung | 3972202 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Sumedang | 3949856 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Sukabumi | 3831926 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Subang | 3737482 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Cianjur | 3316191 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Sukabumi | 3192807 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Tasikmalaya | 2980336 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Indramayu | 2910254 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Cirebon | 2880798 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Cirebon | 2878646 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Tasikmalaya | 2871874 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Majalengka | 2595368 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Garut | 2472227 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Ciamis | 2373644 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Kuningan | 2369380 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kota Banjar | 2361241 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Barat | Kabupaten Pangandaran | 2351250 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-barat-2026-xGgha
+Jawa Timur | Kota Surabaya | 5288796 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Gresik | 5195401 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Sidoarjo | 5191541 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Pasuruan | 5187681 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Mojokerto | 5176101 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Malang | 3802862 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Malang | 3736101 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Batu | 3562484 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Pasuruan | 3555301 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Jombang | 3320770 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Tuban | 3229092 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Mojokerto | 3208556 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Lamongan | 3196328 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Probolinggo | 3164526 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Probolinggo | 3045172 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Jember | 3012197 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Banyuwangi | 2989145 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Kediri | 2742806 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Bojonegoro | 2685983 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Kediri | 2651603 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Blitar | 2639518 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Tulungagung | 2628190 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kota Madiun | 2588794 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Lumajang | 2578320 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Blitar | 2567744 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Nganjuk | 2564627 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Ngawi | 2556815 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Magetan | 2553866 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Sumenep | 2553688 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Madiun | 2553221 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Bangkalan | 2550274 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Ponorogo | 2549876 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Trenggalek | 2530313 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Pamekasan | 2528004 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Pacitan | 2514892 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Bondowoso | 2496886 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Sampang | 2484443 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Jawa Timur | Kabupaten Situbondo | 2483962 | https://data.goodstats.id/statistic/simak-daftar-umk-jawa-timur-2026-zX7B4
+Lampung | Kota Bandar Lampung | 3491889 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Mesuji | 3227333 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Lampung Selatan | 3219609 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Way Kanan | 3215764 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kota Metro | 3050498 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Lampung Barat | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Lampung Tengah | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Lampung Timur | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Lampung Utara | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Pesawaran | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Pesisir Barat | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Pringsewu | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Tanggamus | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Tulang Bawang | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Lampung | Kabupaten Tulang Bawang Barat | 3047734 | https://data.goodstats.id/statistic/simak-daftar-umk-lampung-2026-Tce34
+Papua | Kota Jayapura | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Biak Numfor | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Jayapura | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Keerom | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Kepulauan Yapen | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Mamberamo Raya | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Sarmi | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Supiori | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua | Kabupaten Waropen | 4436283 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-2026-pa9a4
+Papua Barat Daya | Kota Sorong | 3766000 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-barat-daya-2026-QzQHs
+Papua Barat Daya | Kabupaten Maybrat | 3766000 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-barat-daya-2026-QzQHs
+Papua Barat Daya | Kabupaten Raja Ampat | 3766000 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-barat-daya-2026-QzQHs
+Papua Barat Daya | Kabupaten Sorong | 3766000 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-barat-daya-2026-QzQHs
+Papua Barat Daya | Kabupaten Sorong Selatan | 3766000 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-barat-daya-2026-QzQHs
+Papua Barat Daya | Kabupaten Tambrauw | 3766000 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-barat-daya-2026-QzQHs
+Papua Selatan | Kabupaten Merauke | 4508100 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-selatan-2026-AdkUV
+Papua Selatan | Kabupaten Asmat | 4508100 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-selatan-2026-AdkUV
+Papua Selatan | Kabupaten Boven Digoel | 4508100 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-selatan-2026-AdkUV
+Papua Selatan | Kabupaten Mappi | 4508100 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-selatan-2026-AdkUV
+Papua Tengah | Kabupaten Mimika | 5005678 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Deiyai | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Dogiyai | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Intan Jaya | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Nabire | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Paniai | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Puncak | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Papua Tengah | Kabupaten Puncak Jaya | 4285848 | https://data.goodstats.id/statistic/simak-daftar-umk-papua-tengah-2026-FNgL2
+Sulawesi Tengah | Kabupaten Morowali Utara | 4408209 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Morowali | 4223000 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kota Palu | 3619466 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Poso | 3268227 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Buol | 3198109 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Banggai | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Banggai Kepulauan | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Banggai Laut | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Donggala | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Parigi Moutong | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Sigi | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Tojo Una-Una | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tengah | Kabupaten Tolitoli | 3179565 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tengah-2026-fZf3E
+Sulawesi Tenggara | Kabupaten Kolaka | 3688130 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kota Kendari | 3516070 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Konawe Utara | 3510506 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kota Baubau | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Bombana | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Buton | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Buton Selatan | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Buton Tengah | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Buton Utara | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Kolaka Timur | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Kolaka Utara | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Konawe | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Konawe Kepulauan | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Konawe Selatan | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Muna | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Muna Barat | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sulawesi Tenggara | Kabupaten Wakatobi | 3306496 | https://data.goodstats.id/statistic/simak-daftar-umk-sulawesi-tenggara-2026-wylV1
+Sumatera Selatan | Kota Palembang | 4192837 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Muara Enim | 4178363 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Musi Rawas | 4058812 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Musi Rawas Utara | 4047385 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Lahat | 4041420 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Musi Banyuasin | 4039054 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Ogan Komering Ulu Timur | 3993676 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Banyuasin | 3976492 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kota Lubuklinggau | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kota Pagar Alam | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kota Prabumulih | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Empat Lawang | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Ogan Ilir | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Ogan Komering Ilir | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Ogan Komering Ulu | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Ogan Komering Ulu Selatan | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Sumatera Selatan | Kabupaten Penukal Abab Lematang Ilir | 3942963 | https://data.goodstats.id/statistic/simak-daftar-umk-sumatra-selatan-2026-HxIvG
+Kalimantan Timur | Kabupaten Berau | 4391337 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kabupaten Kutai Barat | 4231617 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kabupaten Penajam Paser Utara | 4181131 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kabupaten Kutai Timur | 4067436 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kabupaten Kutai Kartanegara | 3991797 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kota Samarinda | 3983882 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kota Balikpapan | 3856694 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kota Bontang | 3799480 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Timur | Kabupaten Paser | 3776998 | https://data.goodstats.id/statistic/umk-kalimantan-timur-2026-kabupaten-berau-tertinggi-capai-rp439-juta-FHF02
+Kalimantan Utara | Kota Tarakan | 4742169 | https://data.goodstats.id/statistic/umk-kalimantan-utara-2026-kota-tarakan-tembus-rp474-juta-XEoGg
+Kalimantan Utara | Kabupaten Malinau | 4040073 | https://data.goodstats.id/statistic/umk-kalimantan-utara-2026-kota-tarakan-tembus-rp474-juta-XEoGg
+Kalimantan Utara | Kabupaten Bulungan | 3900396 | https://data.goodstats.id/statistic/umk-kalimantan-utara-2026-kota-tarakan-tembus-rp474-juta-XEoGg
+Kalimantan Utara | Kabupaten Tana Tidung | 3870800 | https://data.goodstats.id/statistic/umk-kalimantan-utara-2026-kota-tarakan-tembus-rp474-juta-XEoGg
+Kalimantan Utara | Kabupaten Nunukan | 3845251 | https://data.goodstats.id/statistic/umk-kalimantan-utara-2026-kota-tarakan-tembus-rp474-juta-XEoGg

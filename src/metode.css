@@ -1,0 +1,121 @@
+/* Halaman metode: kolom bacaan bergaya artikel koran. */
+
+.artikel {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--tepi) 48px;
+}
+
+.artikel .judul {
+  max-width: none;
+}
+
+.lead {
+  margin: 0 0 8px;
+  font: 400 19px/1.5 var(--serif);
+}
+
+.artikel section {
+  margin-top: 34px;
+  padding-top: 14px;
+  border-top: 3px double var(--tinta);
+}
+
+.artikel h2 {
+  margin: 0 0 10px;
+  font: 600 24px/1.2 var(--serif);
+  letter-spacing: -0.01em;
+}
+
+.artikel h3 {
+  margin: 22px 0 6px;
+  font: 500 12px/1.2 var(--mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tinta-2);
+}
+
+.artikel p,
+.artikel li {
+  max-width: 68ch;
+}
+
+.artikel ul {
+  padding-left: 20px;
+}
+
+.artikel li + li {
+  margin-top: 6px;
+}
+
+.rumus {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border-left: 3px solid var(--tinta);
+  background: var(--kertas-struk);
+  font: 400 14px/1.5 var(--mono);
+}
+
+.rumus p {
+  margin: 0;
+}
+
+.catatan {
+  font-size: 13.5px;
+  color: var(--tinta-2);
+}
+
+.gulir-tabel {
+  overflow-x: auto;
+  margin: 12px calc(-1 * var(--tepi));
+  padding: 0 var(--tepi);
+}
+
+.tabel {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.tabel.kecil {
+  font-size: 12.5px;
+}
+
+.tabel th {
+  padding: 6px 8px 6px 0;
+  border-bottom: 1px solid var(--tinta);
+  font: 500 11px/1.3 var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: left;
+  vertical-align: bottom;
+  color: var(--tinta-2);
+  white-space: nowrap;
+}
+
+.tabel td {
+  padding: 6px 8px 6px 0;
+  border-bottom: 1px solid var(--garis);
+  vertical-align: top;
+}
+
+.tabel tfoot td {
+  border-bottom: 0;
+  border-top: 1px solid var(--tinta);
+  font-weight: 700;
+}
+
+.tabel .angka {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tabel .titik-pita {
+  margin-right: 4px;
+  vertical-align: 0;
+}
+
+.tabel td:first-child {
+  min-width: 160px;
+}

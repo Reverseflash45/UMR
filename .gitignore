@@ -1,0 +1,7 @@
+node_modules/
+dist/
+# Unduhan mentah (PDF BPS 27 MB, GeoJSON 11 MB) dan berkas antara bisa dibuat ulang.
+data/mentah/
+data/antara/
+.vercel
+.env*
