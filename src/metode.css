@@ -12,13 +12,13 @@
 
 .lead {
   margin: 0 0 8px;
-  font: 400 19px/1.5 var(--serif);
+  font: 400 18px/1.55 var(--sans);
 }
 
 .artikel section {
   margin-top: 34px;
   padding-top: 14px;
-  border-top: 3px double var(--tinta);
+  border-top: 2px dashed var(--garis-kuat);
 }
 
 .artikel h2 {

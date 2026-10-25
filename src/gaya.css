@@ -1,25 +1,26 @@
-/* UMR — tampilan "halaman koran": kertas, tinta, satu set warna data. */
+/* UMR — slip upah di kertas komputer: kertas bergaris hijau, lubang traktor, huruf printer dot-matrix. */
 
 :root {
-  --kertas: #f2eee4;
-  --kertas-2: #e9e3d5;
-  --kertas-struk: #fffdf7;
-  --tinta: #1c1b18;
-  --tinta-2: #5a554b;
-  --tinta-3: #8a8476;
-  --garis: #d3cbba;
-  --garis-kuat: #a59d8b;
+  --kertas: #fbfcf8;
+  --kertas-2: #e3efe0;
+  --kertas-struk: #ffffff;
+  --tinta: #1d1f1c;
+  --tinta-2: #4d544c;
+  --tinta-3: #6f786d;
+  --garis: #cfdacb;
+  --garis-kuat: #94a291;
 
-  /* Warna pita: hijau-teal dalam -> teal muda -> oker -> bata.
-     Beda terang-gelapnya cukup jauh supaya tetap terbaca bagi buta warna. */
-  --longgar: #1e6b63;
-  --pas: #8ec3b9;
-  --mepet: #e0a03a;
-  --kurang: #b3402c;
+  /* Warna pita: hijau buku besar -> hijau muda -> kuning stabilo -> merah pita printer.
+     Divalidasi buta warna di atas --kertas (ΔE CVD terburuk 13). */
+  --longgar: #0f7a5a;
+  --pas: #5fc09c;
+  --mepet: #e09a1f;
+  --kurang: #b3241b;
+  --lubang: #e4e8e3;
 
-  --serif: "Newsreader", Georgia, "Times New Roman", serif;
-  --sans: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --serif: "DotGothic16", "Courier New", monospace;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "DotGothic16", "Courier New", monospace;
 
   --tepi: 16px;
   --lengkung: 10px;
@@ -100,15 +101,15 @@ button {
   align-items: end;
   gap: 4px 14px;
   padding: 14px var(--tepi) 12px;
-  border-bottom: 3px double var(--tinta);
+  border-bottom: 2px dashed var(--garis-kuat);
   max-width: 1360px;
   margin: 0 auto;
 }
 
 .merek {
   grid-area: merek;
-  font: 600 40px/0.85 var(--serif);
-  letter-spacing: -0.03em;
+  font: 400 44px/0.85 var(--serif);
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -151,16 +152,16 @@ button {
 
 .judul {
   margin: 0 0 14px;
-  font: 500 27px/1.12 var(--serif);
-  letter-spacing: -0.015em;
+  font: 400 29px/1.22 var(--serif);
+  letter-spacing: 0;
   text-wrap: balance;
   max-width: 24ch;
 }
 
 .judul em {
-  font-style: italic;
-  font-weight: 600;
-  background: linear-gradient(transparent 62%, color-mix(in srgb, var(--mepet) 45%, transparent) 62%);
+  /* angka penting dicetak pita merah, seperti printer dua warna */
+  font-style: normal;
+  color: var(--kurang);
 }
 
 /* ---------------- Peta ---------------- */
@@ -410,7 +411,7 @@ button {
   padding: 14px;
   border: 1px solid var(--garis);
   border-radius: var(--lengkung);
-  background: color-mix(in srgb, var(--kertas-struk) 55%, var(--kertas));
+  background: var(--kertas-struk);
 }
 
 .kartu-kepala {
@@ -1073,7 +1074,7 @@ input[type="range"]::-moz-range-thumb {
 .peringkat {
   margin-top: 28px;
   padding-top: 14px;
-  border-top: 3px double var(--tinta);
+  border-top: 2px dashed var(--garis-kuat);
 }
 
 .peringkat-kepala {
@@ -1231,12 +1232,12 @@ input[type="range"]::-moz-range-thumb {
 /* ---------------- Peta "gaji yang dibutuhkan" ---------------- */
 
 :root {
-  /* Skala berurutan hangat: makin gelap, makin besar gaji yang dibutuhkan. */
-  --skala-0: #f0e2bf;
-  --skala-1: #e2bd78;
-  --skala-2: #cf8f45;
-  --skala-3: #a85b2c;
-  --skala-4: #66311d;
+  /* Skala berurutan biru tinta: makin gelap, makin besar gaji yang dibutuhkan. */
+  --skala-0: #8fb5df;
+  --skala-1: #5f94cd;
+  --skala-2: #3a74b8;
+  --skala-3: #235292;
+  --skala-4: #11345f;
 }
 
 .mode-skala path[data-skala="0"], [data-skala="0"].titik-pita, .pita-batang [data-skala="0"] { fill: var(--skala-0); background: var(--skala-0); }
@@ -1337,7 +1338,7 @@ input[type="range"]::-moz-range-thumb {
 
 .banding-vs {
   align-self: center;
-  font: 500 italic 18px/1 var(--serif);
+  font: 400 18px/1 var(--serif);
   color: var(--tinta-3);
 }
 
@@ -1432,8 +1433,7 @@ input[type="range"]::-moz-range-thumb {
   padding: 30px 26px 26px;
   overflow: hidden;
   background:
-    radial-gradient(circle at 1px 1px, rgb(28 27 24 / 0.08) 1px, transparent 1.2px) 0 0 / 12px 12px,
-    var(--kertas);
+    repeating-linear-gradient(var(--kertas) 0 32px, var(--kertas-2) 32px 64px);
   color: var(--tinta);
   font-family: var(--sans);
   border-top: 10px solid var(--kurang);
@@ -1473,7 +1473,7 @@ input[type="range"]::-moz-range-thumb {
 .story-hasil {
   margin-top: 22px;
   padding: 14px 0;
-  border-top: 3px double var(--tinta);
+  border-top: 2px dashed var(--garis-kuat);
   border-bottom: 1px solid var(--tinta);
 }
 
@@ -1592,5 +1592,43 @@ input[type="range"]::-moz-range-thumb {
 
   .pita-ringkas.butuh .pita-nama {
     font-size: 12.5px;
+  }
+}
+
+/* ---------------- Kertas komputer (continuous form) ---------------- */
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-synthesis: none;
+  /* pita hijau selang-seling, tiap pita selebar dua baris cetak */
+  background: repeating-linear-gradient(var(--kertas) 0 36px, var(--kertas-2) 36px 72px);
+}
+
+@media (min-width: 760px) {
+  :root {
+    --tepi: 56px;
+  }
+
+  /* strip lubang traktor di kiri-kanan, dipisah garis sobekan */
+  body::before,
+  body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 36px;
+    pointer-events: none;
+    background: radial-gradient(circle, var(--lubang) 0 5px, var(--garis-kuat) 5.5px 6px, transparent 6.5px) 50% 6px / 36px 24px repeat-y;
+  }
+
+  body::before {
+    left: 0;
+    border-right: 1px dashed var(--garis-kuat);
+  }
+
+  body::after {
+    right: 0;
+    border-left: 1px dashed var(--garis-kuat);
   }
 }

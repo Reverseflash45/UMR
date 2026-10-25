@@ -209,7 +209,7 @@ export async function bagikanGambar(
   el: HTMLElement,
   nama: string,
   rasio = 2,
-  latar = "#fffdf7",
+  latar = "#ffffff",
 ): Promise<"dibagikan" | "diunduh"> {
   const blob = await toBlob(el, {
     pixelRatio: rasio,

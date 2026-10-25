@@ -1,11 +1,7 @@
-import "@fontsource/newsreader/500.css";
-import "@fontsource/newsreader/600.css";
-import "@fontsource/newsreader/500-italic.css";
-import "@fontsource/schibsted-grotesk/400.css";
-import "@fontsource/schibsted-grotesk/500.css";
-import "@fontsource/schibsted-grotesk/700.css";
-import "@fontsource/ibm-plex-mono/400.css";
-import "@fontsource/ibm-plex-mono/500.css";
+import "@fontsource/dotgothic16/latin-400.css";
+import "@fontsource/ibm-plex-sans/400.css";
+import "@fontsource/ibm-plex-sans/500.css";
+import "@fontsource/ibm-plex-sans/600.css";
 import "./gaya.css";
 
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -327,7 +323,7 @@ function gambarStruk(): void {
     </div>`;
   $("struk-tutup").onclick = tutupStruk;
   tombolBagikan($<HTMLButtonElement>("struk-story"), () =>
-    bagikanHtml(htmlStory(info), `umr-${h.daerah.id}-story`, { lebar: 360, tinggi: 640, rasio: 3, latar: "#f2eee4" }),
+    bagikanHtml(htmlStory(info), `umr-${h.daerah.id}-story`, { lebar: 360, tinggi: 640, rasio: 3, latar: "#fbfcf8" }),
   );
   tombolBagikan($<HTMLButtonElement>("struk-simpan"), () =>
     bagikanGambar(wadah.querySelector(".struk")!, `struk-${h.daerah.id}`),
