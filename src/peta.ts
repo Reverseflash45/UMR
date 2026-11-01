@@ -1,5 +1,6 @@
 // Peta SVG 514 kabupaten/kota dengan perbesaran (d3-zoom) dan pewarnaan per pita.
 import { geoMercator, geoPath } from "d3-geo";
+import { jalurDatar, titikSudut } from "./datar";
 import { select } from "d3-selection";
 import "d3-transition";
 import { type ZoomBehavior, type ZoomTransform, zoom, zoomIdentity } from "d3-zoom";
@@ -40,8 +41,8 @@ export class Peta {
     const semua = feature(o.topo, o.topo.objects.daerah) as unknown as { features: Fitur[] };
     // Mercator dipusatkan ke Indonesia; tinggi mengikuti bentuk kepulauan.
     const semuaFc = { type: "FeatureCollection" as const, features: semua.features };
-    const proyeksi = geoMercator().fitWidth(LEBAR - 2 * TEPI, semuaFc);
-    this.path = geoPath(proyeksi);
+    const proyeksi = geoMercator().fitWidth(LEBAR - 2 * TEPI, titikSudut(semuaFc));
+    this.path = jalurDatar(proyeksi);
     const [[x0, y0], [, y1]] = this.path.bounds(semuaFc);
     this.tinggi = Math.ceil(y1 - y0) + 2 * TEPI;
     const [tx, ty] = proyeksi.translate();
