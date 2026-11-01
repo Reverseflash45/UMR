@@ -181,6 +181,13 @@ button {
   overflow: hidden;
 }
 
+/* pesan tempat peta (viewBox 1000×391) sebelum SVG-nya dibuat */
+.peta:not(:has(svg))::before {
+  content: "";
+  display: block;
+  aspect-ratio: 1000 / 391;
+}
+
 .peta-svg {
   display: block;
   width: 100%;

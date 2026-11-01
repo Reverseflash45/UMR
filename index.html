@@ -20,6 +20,8 @@
     <meta property="og:image" content="https://umr.raffstw.my.id/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/node_modules/@fontsource/dotgothic16/files/dotgothic16-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   </head>
   <body>
     <header class="kepala">
@@ -32,8 +34,8 @@
 
     <main class="tata">
       <section class="kolom-peta" aria-labelledby="judul-utama">
-        <p class="kicker" id="kicker">Edisi 2026.1</p>
-        <h1 class="judul" id="judul-utama">Memuat peta…</h1>
+        <p class="kicker" id="kicker">Edisi 2026.1 · gaji bersih · 75 longgar, 86 pas</p>
+        <h1 class="judul" id="judul-utama">Dengan upah minimum masing-masing, <em>353</em> dari 514 daerah tidak cukup untuk hidup sendiri.</h1>
 
         <div class="warna-peta">
           <span class="label" id="label-warna">Warnai peta</span>
@@ -58,8 +60,32 @@
         </figure>
 
         <div class="pita-ringkas" id="pita-ringkas">
-          <div class="pita-batang" id="pita-batang" aria-hidden="true"></div>
-          <ul class="pita-angka" id="pita-angka"></ul>
+          <div class="pita-batang" id="pita-batang" aria-hidden="true"><span data-pita="longgar" style="flex-grow:75"></span><span data-pita="pas" style="flex-grow:86"></span><span data-pita="mepet" style="flex-grow:203"></span><span data-pita="kurang" style="flex-grow:150"></span></div>
+          <ul class="pita-angka" id="pita-angka"><li>
+      <button type="button" data-pita="longgar" aria-pressed="false" class="">
+        <span class="pita-nama"><span class="titik-pita" data-pita="longgar"></span>Longgar</span>
+        <span class="pita-jumlah">75</span>
+        <span class="pita-arti">sisa ≥ 20% dari biaya</span>
+      </button>
+    </li><li>
+      <button type="button" data-pita="pas" aria-pressed="false" class="">
+        <span class="pita-nama"><span class="titik-pita" data-pita="pas"></span>Pas</span>
+        <span class="pita-jumlah">86</span>
+        <span class="pita-arti">tertutup, sisa tipis</span>
+      </button>
+    </li><li>
+      <button type="button" data-pita="mepet" aria-pressed="false" class="">
+        <span class="pita-nama"><span class="titik-pita" data-pita="mepet"></span>Mepet</span>
+        <span class="pita-jumlah">203</span>
+        <span class="pita-arti">kurang hingga 20%</span>
+      </button>
+    </li><li>
+      <button type="button" data-pita="kurang" aria-pressed="false" class="">
+        <span class="pita-nama"><span class="titik-pita" data-pita="kurang"></span>Kurang</span>
+        <span class="pita-jumlah">150</span>
+        <span class="pita-arti">kurang lebih dari 20%</span>
+      </button>
+    </li></ul>
         </div>
       </section>
 
