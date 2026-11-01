@@ -23,6 +23,7 @@ import {
 import { Peta } from "./peta";
 import { type Status, dariUrl, gajiKeGeser, geserKeGaji, keUrl } from "./status";
 import { bagikanGambar, bagikanHtml, htmlBanding, htmlStory, htmlStruk } from "./struk";
+import { htmlTetangga } from "./tetangga";
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 
@@ -320,7 +321,9 @@ function gambarStruk(): void {
       </div>
       <button type="button" class="tombol" id="struk-banding">Bandingkan dengan daerah lain</button>
       <button type="button" class="tombol tipis" id="struk-asal" ${p.mode === "kota" && p.asal === id ? "disabled" : ""}>Bawa upah ${h.daerah.jenisUpah} ini ke daerah lain</button>
-    </div>`;
+    </div>
+    ${htmlTetangga(id, h.daerah.nama, "umr")}`;
+
   $("struk-tutup").onclick = tutupStruk;
   tombolBagikan($<HTMLButtonElement>("struk-story"), () =>
     bagikanHtml(htmlStory(info), `umr-${h.daerah.id}-story`, { lebar: 360, tinggi: 640, rasio: 3, latar: "#fbfcf8" }),

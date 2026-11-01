@@ -1313,6 +1313,24 @@ input[type="range"]::-moz-range-thumb {
   gap: 8px;
 }
 
+.tetangga {
+  margin: 18px 0 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--garis-kuat);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--tinta-3);
+}
+
+.tetangga a {
+  color: var(--tinta-2);
+  text-underline-offset: 3px;
+}
+
+.tetangga a:hover {
+  color: var(--tinta);
+}
+
 .tombol.tipis {
   border-color: var(--garis-kuat);
   color: var(--tinta-2);
